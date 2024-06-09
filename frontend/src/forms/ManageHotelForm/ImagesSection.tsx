@@ -11,6 +11,8 @@ const ImagesSection = () => {
 
   const existingImageUrls = watch("imageUrls");
 
+  console.log(existingImageUrls, "existingImageUrls");
+
   const handleDelete = (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
     imageUrl: string
